@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     onMessageListener();
-    
+    console.log('deviceID', MediaDeviceInfo.deviceID)  
   }, []);
 
    const handleClick = () => {

@@ -30,6 +30,7 @@ export const requestFirebaseNotificationPermission = () =>
             });
 
         if (firebase.messaging.isSupported()) {
+            console.log('supported');
             firebase.messaging();
         }
     });
